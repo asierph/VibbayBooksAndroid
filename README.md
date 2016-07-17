@@ -1,6 +1,6 @@
 # VibbayBooksAndroid
 
-Aplicación Android de subastas de libros. Consume una API Restfull mediante Retrofit 2 y utiliza fragments para las distintas vistas y menú lateral. 
+Aplicación Android de subastas de libros. Consume una API Restful mediante Retrofit 2 y utiliza fragments para las distintas vistas y menú lateral. 
 
 <strong>Asignatura</strong>: Desarrollo de sistemas de informacion web.
 
