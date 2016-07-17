@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ArticuloFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo:"
+            android:id="@+id/lblDenom"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtDenom"
+            android:layout_gravity="center_horizontal"
+            android:hint="Titulo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio salida en € :"
+            android:id="@+id/lblPrecio"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPrecioSubir"
+            android:hint="Precio salida"
+            android:digits="1234567890,"
+            android:inputType="number" />
+
+        <ImageView
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgSubir"
+            android:layout_weight="0.76"
+            android:src="@mipmap/ic_launcher" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen"
+            android:id="@+id/btnFotoSubir"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publicar artículo"
+            android:id="@+id/btnPublicar"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>
